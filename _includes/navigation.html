@@ -1,0 +1,25 @@
+<nav class="toc">
+    <ul>
+        <li{% if page.url == "/index.html" or page.url == "/" or page.url == "" %} class="bg-note"{% endif %}>
+            <a href="index.html">Home</a>
+        </li>
+        <li{% if page.url == "/setup.html" %} class="bg-note"{% endif %}>
+            <a href="setup.html">Installation &amp; Setup</a>
+        </li>
+        <li{% if page.url == "/bot.html" %} class="bg-note"{% endif %}>
+            <a href="bot.html">Bot Service</a>
+        </li>
+        <li{% if page.url == "/luis.html" %} class="bg-note"{% endif %}>
+            <a href="luis.html">LUIS Apps</a>
+        </li>
+        <li{% if page.url == "/qna.html" %} class="bg-note"{% endif %}>
+            <a href="qna.html">QNA Maker</a>
+        </li>
+        <li{% if page.url == "/arm.html" %} class="bg-note"{% endif %}>
+            <a href="arm.html">ARM Templates</a>
+        </li>
+        <li{% if page.url == "/cleanup.html" %} class="bg-note"{% endif %}>
+            <a href="cleanup.html">Cleanup</a>
+        </li>
+    </ul>
+</nav>
