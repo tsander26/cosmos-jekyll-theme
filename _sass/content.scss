@@ -1,0 +1,106 @@
+dl,
+ol,
+p,
+ul {
+    margin-top: 1rem
+}
+
+body {
+    position: relative;
+}
+
+body,
+html {
+    font-family: segoe-ui_normal, "Segoe UI", Segoe, "Segoe WP", "Helvetica Neue", Helvetica, sans-serif
+}
+
+p {
+    margin-bottom: 0
+}
+
+a:active,
+a:hover,
+a:visited {
+    color: #0078d7
+}
+
+a {
+    word-wrap: break-word
+}
+
+main ol ol,
+main ul ul {
+    margin: 0 0 0 20px
+}
+
+main ul ul>li {
+    list-style-type: circle
+}
+
+main ul ul ul>li {
+    list-style-type: square
+}
+
+main ol ol>li {
+    list-style-type: lower-alpha
+}
+
+main ol ol ol>li {
+    list-style-type: lower-roman
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    height: 100%
+}
+
+body {
+    background: #fff;
+    color: #222;
+    font-size: 100%;
+    line-height: 160%;
+    min-height: 100%;
+    height: auto!important
+}
+
+a {
+    color: #0050C5;
+    cursor: pointer;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+small {
+    font-size: 11px
+}
+
+dl,
+ol,
+ul {
+    margin-bottom: 1rem
+}
+
+blockquote {
+    border-color: #bff1ff;
+    color: inherit;
+    font-size: smaller;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 6px
+}
+
+blockquote:before {
+    content: "\0024D8   Note";
+    color: #0094bf;
+    font-size: larger;
+    font-family: segoe-ui_light, "Segoe UI Light", "Segoe WP", "Helvetica Neue", Helvetica, sans-serif
+}
+
+article img {
+    max-width: 100%
+}
