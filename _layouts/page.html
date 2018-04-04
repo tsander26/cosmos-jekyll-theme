@@ -43,6 +43,10 @@ layout: default
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script>
         $(function() {
+            $('article img').each(function() {
+                var src = $(this).attr('src');
+                $(this).wrap('<a href="' + src + '" target="_blank"></a>');
+            });
             $('article > h2').each(function() {
                 $('nav.toc > ul').append(
                     $('<li>')
