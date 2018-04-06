@@ -1,5 +1,6 @@
 @import "code";
 @import "headers";
+@import "cosmos";
 
 dl,
 ol,
@@ -19,6 +20,10 @@ html {
 
 p {
     margin-bottom: 0;
+    font-family: "Segoe UI Light","Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 15pt;
 }
 
 a:active,
