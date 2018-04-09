@@ -103,9 +103,9 @@ blockquote {
 }
 
 blockquote:before {
-    content: "\0024D8 Note";
+    content: "\0024D8\00a0Note";
     color: #0094bf;
-    font-size: larger;
+    font-size: small;
     font-family: segoe-ui_light, "Segoe UI Light", "Segoe WP", "Helvetica Neue", Helvetica, sans-serif;
 }
 
