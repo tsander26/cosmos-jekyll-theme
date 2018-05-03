@@ -54,8 +54,10 @@ layout: default
                 var generatedId = 'codeBlock' + index;
                 var languageClass = $(this).children('code:first').attr('class').split(' ')[0];
                 var language = languageClass == 'language-sh' ? 'shell' : 
-                    languageClass == 'language-javascript' ? 'javascript' : 
-                  languageClass == 'language-csharp' ? 'c#' : 'code';
+                    languageClass == 'language-js' ? 'javascript' : 
+                    languageClass == 'language-xml' ? 'xml' : 
+                    languageClass == 'language-sql' ? 'sql' : 
+                    languageClass == 'language-csharp' ? 'c#' : 'code';
                 $(this).attr('id', generatedId);
                 var header = $('<div/>', {
                   class: 'code-header mb-0 bg-light d-flex justify-content-between border',
