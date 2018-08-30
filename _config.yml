@@ -7,3 +7,4 @@ kramdown:
       disable : true
 sass:
   style: :compressed
+remote_theme: "hanuman"
